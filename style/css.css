@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #7eb7ec;
+
+}
+#header div a{
+    color: black;
+    text-decoration: none;
+}
+#header div a:hover{
+    text-decoration: underline;
+
+}
+#footer{
+    width: 100%;
+    margin-top: 60px;
+    height: 60px;
+    display: flex;
+    background-color: #7eb7ec;
+    align-items: center;
+    justify-content: center;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.new_item_box{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.new_item_text{
+    margin-right: 5px;
+}
+.table_items_p{
+    padding: 15px 25px 15px 25px;
+    text-align: center;
+
+}
+.table_items_multi_p{
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+
+}
+.table_items_multi_p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+table thead tr{
+    background-color: #7eb7ec;
+
+}
+table tbody tr:nth-child(odd){
+    background-color: #d0e9ff;
+}
+table tbody tr:nth-child(even){
+    background-color: #7eb7ec;
+}
+caption{
+    color: black;
+    padding: 15px 0 15px 0;
+}
+
+/* The Modal (background) */
+.modal,.modal_defect, .modal_archive,.modal_delete,.modal_transfer,.modal_next,.modal_back{
+
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    box-sizing: border-box;
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 25px;
+    border: 1px solid #888;
+    width: 60%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+#pop_up_chose{
+    margin-left: 140px;
+}
+.aad:hover{
+    cursor: pointer;
+}
